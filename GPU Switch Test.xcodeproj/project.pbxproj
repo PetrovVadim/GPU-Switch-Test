@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B151C1EF1C66A5A6007A35AC /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B151C1EE1C66A5A6007A35AC /* AppDelegate.mm */; };
+		B151C1F11C66A5A6007A35AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B151C1F01C66A5A6007A35AC /* main.m */; };
+		B151C1F31C66A5A6007A35AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B151C1F21C66A5A6007A35AC /* Images.xcassets */; };
+		B151C1F61C66A5A6007A35AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B151C1F41C66A5A6007A35AC /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B151C1E81C66A5A6007A35AC /* GPU Switch Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPU Switch Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B151C1EC1C66A5A6007A35AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B151C1ED1C66A5A6007A35AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B151C1EE1C66A5A6007A35AC /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		B151C1F01C66A5A6007A35AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B151C1F21C66A5A6007A35AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B151C1F51C66A5A6007A35AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B151C2001C66A5A6007A35AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B151C2011C66A5A6007A35AC /* GPU_Switch_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPU_Switch_TestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B151C1E51C66A5A6007A35AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B151C1DF1C66A5A6007A35AC = {
+			isa = PBXGroup;
+			children = (
+				B151C1EA1C66A5A6007A35AC /* GPU Switch Test */,
+				B151C1FE1C66A5A6007A35AC /* GPU Switch TestTests */,
+				B151C1E91C66A5A6007A35AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B151C1E91C66A5A6007A35AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B151C1E81C66A5A6007A35AC /* GPU Switch Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B151C1EA1C66A5A6007A35AC /* GPU Switch Test */ = {
+			isa = PBXGroup;
+			children = (
+				B151C1ED1C66A5A6007A35AC /* AppDelegate.h */,
+				B151C1EE1C66A5A6007A35AC /* AppDelegate.mm */,
+				B151C1F21C66A5A6007A35AC /* Images.xcassets */,
+				B151C1F41C66A5A6007A35AC /* MainMenu.xib */,
+				B151C1EB1C66A5A6007A35AC /* Supporting Files */,
+			);
+			path = "GPU Switch Test";
+			sourceTree = "<group>";
+		};
+		B151C1EB1C66A5A6007A35AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B151C1EC1C66A5A6007A35AC /* Info.plist */,
+				B151C1F01C66A5A6007A35AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B151C1FE1C66A5A6007A35AC /* GPU Switch TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B151C2011C66A5A6007A35AC /* GPU_Switch_TestTests.m */,
+				B151C1FF1C66A5A6007A35AC /* Supporting Files */,
+			);
+			path = "GPU Switch TestTests";
+			sourceTree = "<group>";
+		};
+		B151C1FF1C66A5A6007A35AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B151C2001C66A5A6007A35AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B151C1E71C66A5A6007A35AC /* GPU Switch Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B151C2051C66A5A6007A35AC /* Build configuration list for PBXNativeTarget "GPU Switch Test" */;
+			buildPhases = (
+				B151C1E41C66A5A6007A35AC /* Sources */,
+				B151C1E51C66A5A6007A35AC /* Frameworks */,
+				B151C1E61C66A5A6007A35AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPU Switch Test";
+			productName = "GPU Switch Test";
+			productReference = B151C1E81C66A5A6007A35AC /* GPU Switch Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B151C1E01C66A5A6007A35AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Vadim Petrov";
+				TargetAttributes = {
+					B151C1E71C66A5A6007A35AC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = B151C1E31C66A5A6007A35AC /* Build configuration list for PBXProject "GPU Switch Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B151C1DF1C66A5A6007A35AC;
+			productRefGroup = B151C1E91C66A5A6007A35AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B151C1E71C66A5A6007A35AC /* GPU Switch Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B151C1E61C66A5A6007A35AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B151C1F31C66A5A6007A35AC /* Images.xcassets in Resources */,
+				B151C1F61C66A5A6007A35AC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B151C1E41C66A5A6007A35AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B151C1F11C66A5A6007A35AC /* main.m in Sources */,
+				B151C1EF1C66A5A6007A35AC /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B151C1F41C66A5A6007A35AC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B151C1F51C66A5A6007A35AC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B151C2031C66A5A6007A35AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B151C2041C66A5A6007A35AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B151C2061C66A5A6007A35AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GPU Switch Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B151C2071C66A5A6007A35AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GPU Switch Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B151C1E31C66A5A6007A35AC /* Build configuration list for PBXProject "GPU Switch Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B151C2031C66A5A6007A35AC /* Debug */,
+				B151C2041C66A5A6007A35AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B151C2051C66A5A6007A35AC /* Build configuration list for PBXNativeTarget "GPU Switch Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B151C2061C66A5A6007A35AC /* Debug */,
+				B151C2071C66A5A6007A35AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B151C1E01C66A5A6007A35AC /* Project object */;
+}
